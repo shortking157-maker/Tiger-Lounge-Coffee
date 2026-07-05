@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tiger Lounge Coffee — Menu</title>
+<meta name="description" content="Coffee, crepes, and shisha menu for Tiger Lounge Coffee." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="grain-overlay" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="stripe-band" aria-hidden="true"></div>
+  <div class="header-inner">
+    <div class="mark">
+      <svg class="mark-svg" viewBox="0 0 120 120" aria-hidden="true">
+        <circle cx="60" cy="60" r="57" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M60 14 L64 40 L60 30 L56 40 Z" fill="currentColor"/>
+        <path d="M18 34 Q 40 44 46 58" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M102 34 Q 80 44 74 58" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="48" cy="66" r="4" fill="currentColor"/>
+        <circle cx="72" cy="66" r="4" fill="currentColor"/>
+        <path d="M46 84 Q60 94 74 84" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <h1 class="wordmark">Tiger Lounge<span>Coffee &amp; Shisha</span></h1>
+    <p class="tagline">Slow mornings, long nights — Souq District, since 2019</p>
+  </div>
+</header>
+
+<nav class="menu-nav" aria-label="Menu sections">
+  <button class="nav-btn is-active" data-target="coffee">Coffee</button>
+  <button class="nav-btn" data-target="crepes">Crêpes</button>
+  <button class="nav-btn" data-target="shisha">Shisha</button>
+</nav>
+
+<main>
+
+  <!-- COFFEE -->
+  <section id="coffee" class="menu-section is-visible">
+    <div class="section-head">
+      <span class="section-index">01</span>
+      <h2>Coffee</h2>
+      <p class="section-note">Beans roasted in-house every Tuesday &amp; Friday</p>
+    </div>
+
+    <div class="menu-grid">
+      <article class="item">
+        <div class="item-row">
+          <h3>Espresso</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">14</span>
+        </div>
+        <p class="desc">Double shot, Ethiopian Yirgacheffe blend, a bright citrus finish</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Macchiato</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">16</span>
+        </div>
+        <p class="desc">Espresso marked with a spoon of steamed milk foam</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Cortado</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">18</span>
+        </div>
+        <p class="desc">Equal parts espresso and warm milk, cut clean, no foam</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Flat White</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">20</span>
+        </div>
+        <p class="desc">Velvet microfoam over a ristretto double</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Cappuccino</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">19</span>
+        </div>
+        <p class="desc">Cinnamon dusted, thick foam, served in a warmed cup</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Café Latte</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">21</span>
+        </div>
+        <p class="desc">Steamed milk, one shot, your choice of oat or full-fat</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Spanish Latte</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">23</span>
+        </div>
+        <p class="desc">Condensed milk, double espresso, finished with sea salt foam</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Turkish Coffee</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">17</span>
+        </div>
+        <p class="desc">Slow-brewed in copper cezve with cardamom, served with lokum</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Arabic Coffee</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">15</span>
+        </div>
+        <p class="desc">Light roast, saffron and cardamom, poured from a dallah</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Affogato</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">24</span>
+        </div>
+        <p class="desc">A hot shot poured over vanilla bean gelato, crushed pistachio</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Iced Americano</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">18</span>
+        </div>
+        <p class="desc">Double espresso over ice, topped with cold spring water</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Iced Caramel Macchiato</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">25</span>
+        </div>
+        <p class="desc">Vanilla milk over ice, espresso poured through, caramel drizzle</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Mocha</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">22</span>
+        </div>
+        <p class="desc">Dark Valrhona chocolate, espresso, steamed milk, cocoa dust</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Pistachio Latte</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">26</span>
+        </div>
+        <p class="desc">House pistachio paste, espresso, oat milk, crushed pistachio rim</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Decaf, any style</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">+0</span>
+        </div>
+        <p class="desc">Swiss water process, no extra charge on any coffee above</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- CREPES -->
+  <section id="crepes" class="menu-section">
+    <div class="section-head">
+      <span class="section-index">02</span>
+      <h2>Crêpes</h2>
+      <p class="section-note">Batter rested 24 hours, folded to order</p>
+    </div>
+
+    <div class="menu-grid">
+      <article class="item">
+        <div class="item-row">
+          <h3>Classic Sucre</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">19</span>
+        </div>
+        <p class="desc">Butter, lemon, and raw sugar, folded into quarters</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Nutella &amp; Banana</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">27</span>
+        </div>
+        <p class="desc">Warm hazelnut spread, sliced banana, toasted hazelnut crumble</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Pistachio &amp; Kunafa</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">32</span>
+        </div>
+        <p class="desc">Pistachio cream, crushed kunafa, rose petal, honey drizzle</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Strawberry Mascarpone</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">29</span>
+        </div>
+        <p class="desc">Whipped mascarpone, fresh strawberries, basil sugar</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Biscoff Crunch</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">28</span>
+        </div>
+        <p class="desc">Biscoff spread, crushed cookies, vanilla soft-serve</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Four Cheese</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">31</span>
+        </div>
+        <p class="desc">Mozzarella, halloumi, akkawi, cheddar, cracked black pepper</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Turkey &amp; Mushroom</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">33</span>
+        </div>
+        <p class="desc">Smoked turkey, sautéed mushroom, béchamel, gruyère</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Spinach &amp; Feta</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">28</span>
+        </div>
+        <p class="desc">Wilted spinach, whipped feta, pine nuts, nutmeg</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Smoked Salmon</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">36</span>
+        </div>
+        <p class="desc">Cream cheese, capers, dill, pickled red onion</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- SHISHA -->
+  <section id="shisha" class="menu-section">
+    <div class="section-head">
+      <span class="section-index">03</span>
+      <h2>Shisha</h2>
+      <p class="section-note">Al Fakher &amp; Starbuzz tobacco, changed heads on request</p>
+    </div>
+
+    <div class="menu-grid">
+      <article class="item">
+        <div class="item-row">
+          <h3>Double Apple</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">45</span>
+        </div>
+        <p class="desc">The house classic — sweet apple with a hint of anise</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Grape Mint</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">48</span>
+        </div>
+        <p class="desc">Dark grape leaf layered over fresh spearmint</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Blue Mist</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">48</span>
+        </div>
+        <p class="desc">Blueberry and mint, ice-cup service on request</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Lemon &amp; Mint</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">46</span>
+        </div>
+        <p class="desc">Sicilian lemon, crushed mint leaf, citrus peel garnish</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Watermelon Rose</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">50</span>
+        </div>
+        <p class="desc">Fresh watermelon flesh bowl, rose petal, mastic</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Peach Tea</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">47</span>
+        </div>
+        <p class="desc">White peach over black tea leaf, honey rim</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Gum Mastic</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">49</span>
+        </div>
+        <p class="desc">Arabic mastic resin, cool cream finish, served slow-burning</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Tiger's Blend</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">55</span>
+        </div>
+        <p class="desc">House signature — mango, passionfruit, and a dark rum cure</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Extra Head Change</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">12</span>
+        </div>
+        <p class="desc">Fresh foil and tobacco, any flavor above</p>
+      </article>
+
+      <article class="item">
+        <div class="item-row">
+          <h3>Ice Cup Upgrade</h3>
+          <span class="dots" aria-hidden="true"></span>
+          <span class="price">8</span>
+        </div>
+        <p class="desc">Frosted glass base for a cooler, smoother pull</p>
+      </article>
+    </div>
+
+    <p class="legal-note">Shisha service seated in the lounge terrace only, guests 21+. Valid ID required.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-brand">Tiger Lounge Coffee &amp; Shisha</p>
+    <p class="footer-meta">Open daily, 4 PM — 2 AM · Terrace seating · Reservations for groups of 6+</p>
+  </div>
+  <div class="stripe-band" aria-hidden="true"></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
