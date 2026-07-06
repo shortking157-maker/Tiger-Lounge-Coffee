@@ -1,20 +1,27 @@
+/** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    './index.html',
-    './src/**/*.{js,ts,jsx,tsx}',
-  ],
+  content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     extend: {
       colors: {
-        'dark': '#0a0a0a',
+        dark: '#0f0f0f',
         'dark-secondary': '#1a1a1a',
-        'dark-card': '#2a2a2a',
-        'gold': '#d4af37',
-        'gold-light': '#e8c547',
+        'dark-card': '#242424',
+        gold: '#d4af37',
+        'gold-light': '#e5c158',
         'white-primary': '#ffffff',
-        'white-secondary': '#f0f0f0'
+        'white-secondary': '#b0b0b0'
+      },
+      fontFamily: {
+        sans: ['Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif']
+      },
+      backdropBlur: {
+        xs: '2px',
+        sm: '4px',
+        md: '12px',
+        lg: '20px'
       }
-    },
+    }
   },
-  plugins: [],
+  plugins: []
 }
